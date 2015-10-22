@@ -1,273 +1,144 @@
+<!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8">
+		<title>Joyee's Timeline</title>
+		<style>
 
-<head>
-  <meta charset="utf-8">
-  <title>Sichuan Spicy Chicken</title>
-  <style>
-  .whole {
-  margin: 0 auto;
-}
+		/*- static, relative, absolute, fixed-*/
+		
+			*{
+				font-family: roboto;
+			}
 
-body {
-  font-family: roboto, Helvetica, sans-serif;
-  font-weight: lighter;
-  overflow:
-}
+			body{
+				background-image: url(img/background-future.jpg);
+				background-repeat: repeat-x;
+				width：100%;
+				padding:0px;
+				margin:0;
+			}
+			.bg-white{
+				width:50%;
+				height: 800px;
+				background-color: #fff;
+				opacity: 0.8;
+				float: right;
+				margin:0px;
+				padding-top:20px;
 
-.image-title  {
-  background-color: red;
-  display: block;
-  margin: auto;
-}
+			}
 
-.head {
-  font-family: museo sans;
-  font-weight: bold;
-  background-color: ;
-}
+		h3{
+			font-weight: lighter;
+			color:#ccc;
+			display:inline;
+			padding:20px;
 
-.image-title {
-  width: 800px;
-}
-
-h1 {
-  font-family: museo sans;
-  font-weight: bolder;
-  border: opx solid red;
-  margin: 40px auto 10px auto;
-  text-align: center;
-}
-
-h4 {
-  font-size: 18px;
-  font-weight: normal;
-  border: 0px solid red;
-  margin: 15px auto 15px auto;
-  text-align: center;
-}
-
-h2 {
-  font-family: museo sans;
-  font-weight: normal;
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-h3 {
-  font-family: museo sans;
-  font-size: 18px;
-  font-weight: regular;
-  text-align:
-}
-
-.list {
-  font-size: 18px;
-}
-
-p {
-  font-size: 18px;
-  line-height: 28px;
-}
-
-.intro {
-  width: 800px;
-  background-color: #fff;
-  border-bottom: 1px dotted grey;
-  padding-top: 20px;
-  padding-bottom: 40px;
-  margin: 0 auto 0 auto;
-}
-
-.ingredients {
-  background-color: #fff;
-  width: 800px;
-  padding-top: 40px;
-  padding-bottom: 70px;
-  margin: 0 auto 0 auto;
-  border-bottom: 1px dotted grey;
-}
-
-.ingredients-content {
-  border: 0px solid red;
-  background-color: rgb(247, 247, 247);
-}
-
-.image-ingre {
-  border: 0px solid black;
-  width: 395px;
-  height: 290px;
-  margin: 0 auto;
-}
-
-.list {
-  letter-spacing: 1px;
-  line-height: 1.6em;
-}
-
-.ingre-list {
-  background-color: fff;
-  width: 380px;
-  height: 290px;
-  margin: 0 auto 0 auto;
-  border-right: 0px dotted grey;
-  float: right;
-}
-
-.direction {
-  background-color: #fff;
-  width: 800px;
-  margin: 0 auto;
-  padding-top: 40px;
-}
-
-.direction-steps {
-  background-color: rgb(247, 247, 247);
-  width: 250px;
-  height: 300px;
-  float: left;
-  border-bottom: 1px dotted grey;
-  margin: 13px 8px 13px 8px;
-}
-
-.steps {
-  line-height: 1.3em;
-  border: 0px solid red;
-  width: 230px;
-  margin: 5px auto;
-}
-
-.whole-steps {
-  margin: auto;
-}
-  </style>
-</head>
-
-<body>
-
-  <div class="whole">
-    <div class="image-title"><img class="image-title" src="http://www.daydaycook.com/images/upload/1000x750/recipe_1871_2328.jpg" Alt="Sichuan Spicy Chicken">
-    </div>
-
-    <div class="head">
-
-      <h1 id="whole-title">Sichuan Spicy Chicken</h1>
-      <h4>				by Day Day Cook</h4>
-    </div>
-
-    <div class="intro">
-      <p>Sichuan Spicy Chicken is a dish that has everything going for it. It’s legendary. It’s dramatic. It’s mouthwatering (to me, anyway). And despite its deadly spicy look, it’s actually really good.</p>
-    </div>
-
-    <div class="ingredients">
-      <h2>Ingredients</h2>
-      <div class="ingredients-content">
-        <img class="image-ingre" src="http://www.daydaycook.com/images/upload/384x288/recipe_content_8358_item_0.jpg">
-
-        <div class="ingre-list">
-          <ul class="list">
-            <li>2 pieces of chicken thigh </li>
-            <li>½ teaspoon salt </li>
-            <li>½ tablespoon soy sauce </li>
-            <li>2 teaspoons sugar </li>
-            <li>2 pieces of star anise </li>
-            <li>10g Sichuan pepper corn </li>
-            <li>4-5 dried red chili peppers, chopped </li>
-            <li>20g green onions, chopped</li>
-            <li>5g white sesame seeds</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+			text-align: center;
+			font-size: 18px;
 
 
-    <div class="direction">
-      <h2>Cooking Direction</h2>
+		}
+		nav{
+			width:100%;
+			text-align: center;	
+			
+		}
 
 
-      <div class="whole-steps">
-        <div class="direction-steps">
-          <img src="http://www.daydaycook.com/images/upload/384x288/recipe_content_8358_item_1.jpg" width="250px">
-          <div class="steps">
-            <p class="steps">Cut the chicken into medium sized pieces</p>
-          </div>
-        </div>
 
-        <div class="direction-steps">
-          <img src="http://www.daydaycook.com/images/upload/384x288/recipe_content_8360_item_0.jpg" width="250px">
-          <div class="steps">
-            <p class="steps">Cut the dried chili peper into small sized pieces</p>
-          </div>
-        </div>
+		a{
+			padding:8px 15px ;
+		}
 
-        <div class="direction-steps">
-          <img src="http://www.daydaycook.com/images/upload/384x288/recipe_content_8360_item_1.jpg" width="250px">
-          <div class="steps">
-            <p class="steps">Cut the green onion into small sized pieces</p>
-          </div>
-        </div>
+		a:link{
+			color:rgb(50,50,50);
+			text-decoration: none;
+			background-color: transparent;
+		}
 
-        <div class="direction-steps">
-          <img src="http://www.daydaycook.com/images/upload/recipe_content_8361_item_0.jpg" width="250px">
-          <div class="steps">
-            <p class="steps">Add chicken to quickly cook for 2 minutes</p>
-          </div>
-        </div>
+		a:visited{
+			color:rgb(50,50,50);
+		}
 
-        <div class="direction-steps">
-          <img src="http://www.daydaycook.com/images/upload/recipe_content_8361_item_1.jpg" width="250px">
-          <div class="steps">
-            <p class="steps">Remove when the chicken begins to brown on the edges</p>
-          </div>
-        </div>
+		a:hover{
+			color:#fff;
+			background-color: rgb(50,50,50);
+			text-decoration: none;
+		}
 
-        <div class="direction-steps">
-          <img src="http://www.daydaycook.com/images/upload/recipe_content_8362_item_0.jpg" width="250px">
-          <div class="steps">
-            <p class="steps">Add Sichuan pepper corn, dried red chili peppers, and green onions to saute until aromatic</p>
-          </div>
-        </div>
+		.nav-future a{
+			border:1px solid #7DE3CC;
+			color: #7DE3CC;;
+		}
 
-        <div class="direction-steps">
-          <img src="http://www.daydaycook.com/images/upload/recipe_content_8362_item_1.jpg" width="250px">
-          <div class="steps">
-            <p class="steps">Add chicken to saute</p>
-          </div>
-        </div>
 
-        <div class="direction-steps">
-          <img src="http://www.daydaycook.com/images/upload/recipe_content_8363_item_0.jpg" width="250px">
-          <div class="steps">
-            <p class="steps">Season with salt, soy sauce, and sugar</p>
-          </div>
-        </div>
+		#home a{
+			border:1px solid rgb(50,50,50) 
+		}
 
-        <div class="direction-steps">
-          <img src="http://www.daydaycook.com/images/upload/recipe_content_8363_item_1.jpg" width="250px">
-          <div class="steps">
-            <p class="steps">Add white sesame seeds and mix well</p>
-          </div>
-        </div>
+		#home{
+			position:fixed;
+			left: 40px;
+			top:20px;
+			;
+		}
 
-        <div class="direction-steps">
-          <img src="http://www.daydaycook.com/images/upload/recipe_content_8364_item_0.jpg" width="250px">
-          <div class="steps">
-            <p class="steps">Garnish with chopped green onion</p>
-          </div>
-        </div>
+		h2{
+			color: rgb(50,50,50);
+			display:block;
+			margin:0;
+			padding:0;
+			font-weight:300;
+			font-size: 18px;
 
-        <div class="direction-steps">
-          <img src="http://www.daydaycook.com/images/upload/recipe_content_8364_item_1.jpg" width="250px">
-          <div class="steps">
-            <p class="steps">Ready to serve</p>
-          </div>
-        </div>
+		}
 
-      </div>
+		h1{
+			letter-spacing: 3px;
+			color:white;
+			position:absolute;
+			top:270px;
+			left:140px;
 
-    </div>
+		}
 
-  </div>
-  </div>
-</body>
+
+
+
+
+
+		</style>
+	</head>
+
+	<body>
+
+		<h2 id="home"><a href="index.html">Home </a></h2>
+
+		<h1>/ FUTURE...</h1>
+
+		<div class="bg-white">
+
+		<nav>
+			<h3 class="nav-past"><a href="past.html">Past</a></h3>
+			<h3 class="nav-present"><a href="present.html">Present</a></h3>
+			<h3 class="nav-future"><a href="future.html">Future</a></h3>
+			<h3 class="nav-blank"><a href="blank.html">Blank</a></h3>
+		</nav>
+		
+
+
+		
+
+		</div>
+
+	<body>
+	
+
+	
+
+
+	</body>	
 
 </html>
