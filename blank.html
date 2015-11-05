@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Joyee's Timeline</title>
+		<style>
+
+		/*- static, relative, absolute, fixed-*/
+		
+		*{
+			font-family: roboto;
+		}
+
+		body{
+			background: url(img/background-blank1.jpg) no-repeat center center fixed;
+			background-size: 50%;
+			width：100%;
+			padding:0px;
+			margin:0;
+			background-position: top left;
+		}
+		.bg-white{
+			width:50%;
+			height: 800px;
+			background-color: #fff;
+			opacity: 0.9;
+			float: right;
+			position:relative;
+			margin:0px;
+			padding-top:20px;
+
+		}
+
+		h3{
+			font-weight: lighter;
+			color:#ccc;
+			display:inline;
+			padding:20px;
+
+			text-align: center;
+			font-size: 18px;
+			line-height: 250%;
+
+
+		}
+		nav{
+			width:80%;
+			text-align: center;	
+			border:0px solid red;
+			margin:0 auto;
+
+		}
+
+
+
+		a{
+			padding:8px 15px ;
+		}
+
+		.nav-blank a{
+			border:1px solid #7DE3CC;
+			color: #7DE3CC;;
+		}
+
+		a:link{
+			color:rgb(50,50,50);
+			text-decoration: none;
+			background-color: transparent;
+		}
+		a:visited{
+			color:rgb(50,50,50);
+			text-decoration: none;
+			background-color: transparent;
+
+		}
+
+
+		a:hover{
+			color:#fff;
+			background-color: rgb(50,50,50);
+			text-decoration: none;
+		}
+
+
+		#home a{
+			border:1px solid rgb(50,50,50) 
+		}
+
+		#home{
+			position:fixed;
+			left: 40px;
+			top:20px;
+			;
+		}
+
+		h2{
+			color: rgb(50,50,50);
+			display:block;
+			margin:0;
+			padding:0;
+			font-weight:300;
+			font-size: 18px;
+			line-height: 250%;
+
+		}
+
+		h1{
+			letter-spacing: 3px;
+			color:white;
+			position:absolute;
+			top:270px;
+			left:140px;
+
+		}
+
+		#img-blank img{
+			display:block;
+			width:100%;
+		}
+		#img-blank{
+			border:0px solid red;
+			width:80%;
+			margin:200px auto ;
+
+
+
+		}
+
+
+
+		#text-blank{
+			color:#fff;
+			font-size:22px;
+			font-weight:400;
+			line-height: 1.2em;
+			position:absolute;
+			left:52%;
+			bottom:34%;
+			letter-spacing: 1px;
+			display:block;
+
+		}
+
+		#text-blank2{
+			
+			font-size:40px;
+			font-weight:500;
+			
+			position:relative;
+			top:-510px;
+			line-height:0.5em;
+
+			border:0px solid red;
+			width:100%;
+			letter-spacing: 5px;
+			text-align: center;
+			border:0px solid red;
+
+		}
+		#text-blank2 p {
+			text-align: center;
+		}
+
+
+
+		.bold{
+			font-weight: regular;
+			letter-spacing: 2px;
+			font-size:1.2em;
+		}
+
+		#symbol{
+			font-style: normal;
+			font-size:40%;
+			text-align: center;
+			color: #fff
+		}
+
+
+
+
+		</style>
+	</head>
+
+	<body>
+
+		<h2 id="home"><a href="index.html">Home </a></h2>
+
+		<h1>/ BLANK Space...</h1>
+
+		<div class="bg-white">
+
+			<nav>
+				<h3 class="nav-past"><a href="past.html">Past</a></h3>
+				<h3 class="nav-present"><a href="present.html">Present</a></h3>
+				<h3 class="nav-future"><a href="future.html">Future</a></h3>
+				<h3 class="nav-blank"><a href="blank.html">Blank</a></h3>
+			</nav>
+
+
+
+
+
+			<div id="img-blank">
+				<p id="text-blank">
+					Life is<br>
+					elsewhere...
+				</p>
+
+				<img src="img/blank-1.jpeg">
+			</div>
+					
+					<p id="text-blank2"><a href="present.html">
+						Jump<br><br>
+					 	<span id="symbol">&#9660;</span></a>
+					</p>
+					
+
+
+
+
+		
+
+		</div>
+
+	<body>
+	
+
+	
+
+
+	</body>	
+
+</html>

@@ -1,0 +1,211 @@
+body{
+	font-family: roboto;
+	background: url(img/background-home.jpg) no-repeat fixed;
+	background-size: 100% 100%;
+	width：100%;
+	padding:0;
+	margin:0;
+}
+
+.main-white
+{
+	width: 50%;
+	
+}
+
+#home>a
+{
+	border: solid 1px #fff;
+	padding: 10px;
+	z-index: 12;
+}
+
+
+#left
+{
+	position:absolute;
+	height:100%;
+	width:50%;
+	right:50%;
+	top:0;
+	bottom:0;
+
+}
+
+#left:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	opacity: 0.6;
+	display: block;
+	transition: all 0.3s linear;
+	z-index: -1;
+}
+
+#left:hover:before
+{
+	background-color: inherit;
+	transition: all 0.3s linear;
+}
+
+#right
+{	
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	left: 50%;
+	top: 0;
+	bottom: 0;
+	background: url(img/home-1.jpg) no-repeat;
+	background-size: 100% 100%;
+	opacity: 0.99;
+}
+
+#right:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	opacity: 0.6;
+	display: block;
+	transition: all 0.3s linear;
+	z-index: -1;
+}
+
+#right:hover:before
+{
+	background-color: inherit;
+	transition: all 0.3s linear;
+}
+
+nav
+{
+	text-align: center;	
+	margin:0 auto;
+	display: block;
+	/*这里设536 = 134 * 4， 134 是1个h3的宽度*/
+	width: 536px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+}  
+
+
+h3{
+	font-weight: lighter;
+	color:#fff;
+	float: left;
+	text-align: center;
+	font-size: 18px；
+	padding:20px;
+}
+
+h3>a
+{
+	display: block;
+	width: 70px;
+	padding: 10px;
+	text-align: center;
+	/*border: #fff solid 1px;*/
+	margin: 0 20px 0 20px;
+}
+
+h1{
+	letter-spacing: 3px;
+	color:white;
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+
+#am-i{
+	position:absolute;
+	top:30%;
+	left:32%;
+	margin:0 auto;
+	height:120px;
+	width:500px;
+	z-index: 10;
+
+}
+
+#stay{
+	position:absolute;
+	top:60%;
+	left:10%;
+	margin:0 auto;
+	
+	
+	z-index: 10;
+	border:3px solid white;
+
+}
+
+#stay h1{
+	font-weight: 500;
+}
+
+#out{
+	position:absolute;
+	top:60%;
+	right:10%;
+	margin:0 auto;
+	
+	
+	z-index: 10;
+	border:3px solid white;
+
+}
+
+#out h1{
+	font-weight: 500;
+}
+
+
+h2{		color: rgb(50,50,50);
+			display:block;
+			margin:0;
+			padding:0;
+			font-weight:300;
+			font-size: 18px;
+			line-height: 250%;
+		}
+
+
+#home{
+			position:fixed;
+			left: 40px;
+			top:20px;
+}
+
+
+
+
+
+a:link{
+	color:#fff;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a:visited{
+	color:#fff;
+	text-decoration: none;
+	background-color: transparent;
+}	
+
+
+a:hover{
+	color:#fff;
+	background-color: rgb(50,50,50);
+	text-decoration: none;
