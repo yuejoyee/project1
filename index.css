@@ -109,8 +109,7 @@ h3{
 	padding:20px;
 }
 
-h3>a
-{
+nav h3 a{
 	display: block;
 	width: 70px;
 	padding: 10px;
@@ -119,7 +118,7 @@ h3>a
 	margin: 0 20px 0 20px;
 }
 
-h1{
+#am-i h1{
 	letter-spacing: 3px;
 	color:white;
 	
@@ -139,37 +138,61 @@ h1{
 
 }
 
+
+
 #stay{
 	position:absolute;
 	top:60%;
-	left:10%;
+	left:12%;
 	margin:0 auto;
 	
 	
 	z-index: 10;
-	border:3px solid white;
+	
 
 }
 
 #stay h1{
 	font-weight: 500;
+
+
 }
+	
+#stay h1 a{
+    border:3px solid white;
+	height:200px;
+		padding-top:20px;
+	padding-bottom: 20px;
+	padding-left:30px;
+	padding-right: 30px; 
+}
+
 
 #out{
 	position:absolute;
 	top:60%;
-	right:10%;
+	right:12%;
 	margin:0 auto;
 	
 	
 	z-index: 10;
-	border:3px solid white;
+	
 
 }
 
 #out h1{
 	font-weight: 500;
 }
+
+#out h1 a{
+    border:3px solid white;
+	height:200px;
+		padding-top:20px;
+	padding-bottom: 20px;
+	padding-left:30px;
+	padding-right: 30px; 
+}
+	
 
 
 h2{		color: rgb(50,50,50);
